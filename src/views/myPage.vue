@@ -7,7 +7,7 @@
       <ul>
         <todo v-for="(todo,index) in groceryList" :key="'com1'+index" :todo="todo"></todo>
       </ul>
-      <button @click="changeData">更改数据</button>
+      <button @click="changeData">更改数据123</button>
     </div><!-- /.container-fluid -->  
 </template>  
 <script>
